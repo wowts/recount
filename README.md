@@ -1,4 +1,4 @@
-LibTextDump
-=================
+Recount
+=======
 
-This is a mock version of the LibTextDump WoW library.
+This is a mock version of the Recount WoW library.
