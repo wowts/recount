@@ -1,3 +1,4 @@
+import { LuaObj } from "@wowts/lua";
 export declare class Recount {
     db: {
         profile: {
@@ -5,7 +6,7 @@ export declare class Recount {
         };
     };
     db2: {
-        combatants: string[];
+        combatants: LuaObj<string>;
     };
     Group(name: string): void;
     AddModeTooltip(key: string, modes: any, tooltips: any, a: any, b: any, c: any, d: any): void;
